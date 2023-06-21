@@ -25,10 +25,11 @@ export default {
         lg:"1440px",
         xl:"1700px",
         xxl:"2560px",
-        
+
         'max-xxs':{max:'375px'},
         'max-xs': {max:'425px'},
         'max-sm': {max:'768px'},
+        'max-ms': {max:'1000px'},
         'max-md': {max:'1024px'},
         'max-lg': {max:'1440px'},
         'max-xl': {max:'2560px'},
