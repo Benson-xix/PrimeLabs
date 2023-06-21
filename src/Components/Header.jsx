@@ -45,11 +45,11 @@ const Header = () => {
     };
   
   return (
-    <div className=" w-[100%] flex h-[80px]  justify-between gap-5  p-2 ">
+    <div className=" w-[100%] flex h-[80px]  justify-between gap-2 fixed bg-black bg-opacity-50 p-2 " style={{zIndex:"100"}}  >
     <div className="flex justify-start pl-8 "> 
     <Link to="/"> <img src={Logo} alt="Logo" className=" w-10 h-10  mt-2"/></Link>
     </div>
-    <div className=" max-ms:flex md:hidden h-[50px] relative xxs:pr-[3rem]">
+    <div className=" max-ms:flex md:hidden h-[50px]  xxs:pr-[3rem]">
       <button
         className="p-2 rounded-md bg-gray-200 text-gray-800 mt-3 "
         onClick={toggleMobileMenu}
@@ -63,7 +63,7 @@ const Header = () => {
       {isMobileMenuOpen && (
 
         <div className="">
-            <div className="bg-ash flex flex-col gap-7 p-3 absolute sm:w-[400px]  xxs:w-[200px] h-[320px] mt-2 xxs:right-[70%] max-ms:top-[4rem] right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"100"}}>
+            <div className="bg-ash flex flex-col gap-7 p-3 fixed sm:w-[400px]  xxs:w-[300px] h-[520px]  mt-2 xxs:right-[10%] max-ms:top-[5rem] right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"200"}}>
     <ul className="mt-2 list-none flex font-sora flex-col text-word gap-8 p-2 ">
           <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(0)}>
             <Link to="/" className={`${selectedItem === 0 ? "font-bold border-b-2 border-Gold" : ""}`}>
@@ -82,7 +82,7 @@ const Header = () => {
           </li>
           <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(3)}>
             <Link to="/contact" className={`${selectedItem === 3 ? "font-bold border-b-2 border-Gold" : ""}`}>
-              Contact Us
+              FAQs
             </Link>
           </li>
         </ul>
@@ -94,7 +94,7 @@ const Header = () => {
       )}
      
     </div>
-    <div className=" max-ms:hidden md:flex justify-end h-[48px]  gap-3 mt-2 text-word">
+    <div className=" max-ms:hidden md:flex justify-end h-[48px] pr-[3rem]  gap-3 mt-2 text-word">
       <ul className="list-none font-sora flex justify-end lg:flex-row md:flex-row text-word lg:gap-10  sm:gap-5  w-[100% ]  mt-2 ">
         <li
           className={`cursor-pointer font-sora hover-effect-box ${
@@ -126,7 +126,7 @@ const Header = () => {
           }`}
           onClick={() => handleItemClick(3)}
         >
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/contact">FAQs</Link>
         </li>
       </ul>
       <GetStarted />
