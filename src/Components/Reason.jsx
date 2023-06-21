@@ -16,7 +16,7 @@ const Reason = () => {
             <h4 className="text-Black text-[30px] max-sm:text-[24px] font-700 leading-[200%] border-b-[5px] border-Gold mr-1 font-sora ">Why</h4>
             <h4 className="text-Black text-[30px] max-sm:text-[24px] font-700 leading-[200%] font-sora ">You Should Trust Us</h4>
             </div>
-            <p className="text-Black text-[16px] max-sm:text-[14px] font-400 font-sora leading-[32px] max-xs:pr-[2rem] max-xxs:w-[95%] ">
+            <p className="text-Black text-[16px] max-sm:text-[14px] font-400 font-sora leading-[32px] max-xs:pr-[2rem] xxs:w-[95%] ">
             Trusted by 25+ world-class brands and organizations of all sizes.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.

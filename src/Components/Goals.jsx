@@ -4,7 +4,7 @@ import Gathering from "../assets/Image/Group 12.png"
 const Goals = () => {
   return (
     <div> 
-      <div className=" flex flex-row gap-[4rem]  animate-slide-in-right md:flex-row  sm:flex-col max-xs:flex-col max-xxs:pl-[1rem] ">
+      <div className=" flex flex-row gap-[4rem]  animate-slide-in-right md:flex-row  sm:flex-col max-xs:flex-col xxs:pl-[1rem] ">
     <div className=" flex flex-col gap-5  lg:w-[70%] md:w-[40%] max-xs:w-[100%] ">
     <div className="flex flex-row gap-2">
         <h3 className=" text-Black text-[40px] font-700 leading-[200%] border-b-[5px] border-Gold font-sora  ">Our </h3>
@@ -13,7 +13,7 @@ const Goals = () => {
 
         <h5 className=" text-Black text-[16px] font-400 leading-[200%] font-sora ">About primelabs</h5>
 
-        <p className=" text-Black text-[16px] font-400 leading-[32px] font-sora lg:pr-[0rem] md:pr-[0rem] xs:pr-[2rem] max-xxs:pr-[5rem] ">
+        <p className=" text-Black text-[16px] font-400 leading-[32px] font-sora lg:pr-[0rem] md:pr-[0rem] xs:pr-[2rem] xxs:pr-[5rem] ">
         simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
         been the industrys standard dummy text ever since the 1500s, when an
         unknown printer took a galley of type and scrambled it to make a type 
@@ -25,7 +25,7 @@ const Goals = () => {
     </div>
     </div> 
 
-    <div className=" flex flex-row gap-[3rem] animate-slide-in-left md:flex-row  sm:flex-col max-xs:flex-col mt-4 max-xxs:pl-[1rem]  ">
+    <div className=" flex flex-row gap-[3rem] animate-slide-in-left md:flex-row  sm:flex-col max-xs:flex-col mt-4 xxs:pl-[1rem]  ">
     <div className="  h-[100%]  md:flex  hover-effect-box  max-xs:hidden ">
         <img src={Gathering} alt="Hands" className=" w-[550px] h-[377px] max-xs:w-[377px] max-xs:h-[277px]  " />
     </div>
@@ -38,7 +38,7 @@ const Goals = () => {
 
         <h5 className=" text-Black text-[16px] font-sora font-400 leading-[200%]">About primelabs</h5>
 
-        <p className=" text-Black text-[16px]  font-sora font-400 leading-[32px] lg:pr-[0rem] md:pr-[0rem] xs:pr-[2rem] max-xxs:pr-[5rem] ">
+        <p className=" text-Black text-[16px]  font-sora font-400 leading-[32px] lg:pr-[0rem] md:pr-[0rem] xs:pr-[2rem] xxs:pr-[5rem] ">
         simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
         been the industrys standard dummy text ever since the 1500s, when an
         unknown printer took a galley of type and scrambled it to make a type 

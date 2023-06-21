@@ -49,7 +49,7 @@ const Header = () => {
     <div className="flex justify-start pl-8 "> 
     <Link to="/"> <img src={Logo} alt="Logo" className=" w-10 h-10  mt-2"/></Link>
     </div>
-    <div className=" max-sm:visible md:hidden lg:hidden relative max-xxs:pr-[6rem]">
+    <div className=" max-sm:visible md:hidden lg:hidden relative xxs:pr-[6rem]">
       <button
         className="p-2 rounded-md bg-gray-200 text-gray-800 mt-3 "
         onClick={toggleMobileMenu}
@@ -63,7 +63,7 @@ const Header = () => {
       {isMobileMenuOpen && (
 
         <div className="">
-            <div className="bg-ash flex flex-col gap-7 p-3 absolute sm:w-[400px]  max-xxs:w-[200px] h-[320px] mt-2 max-xxs:right-[70%]  right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"100"}}>
+            <div className="bg-ash flex flex-col gap-7 p-3 absolute sm:w-[400px]  xxs:w-[200px] h-[320px] mt-2 xxs:right-[70%]  right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"100"}}>
     <ul className="mt-2 list-none flex font-sora flex-col text-word gap-8 p-2 ">
           <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(0)}>
             <Link to="/" className={`${selectedItem === 0 ? "font-bold border-b-2 border-Gold" : ""}`}>

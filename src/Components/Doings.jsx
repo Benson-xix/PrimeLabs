@@ -15,12 +15,12 @@ import virtuemart from "../assets/Image/image 19.png"
 
 const Doings = () => {
   return (
-    <div className="flex flex-col  gap-3  max-xxs:pl-[.2rem]  ">
-    <div className="flex flex-row max-xxs:pl-[1rem]  ">
+    <div className="flex flex-col  gap-3  xxs:pl-[.2rem]  ">
+    <div className="flex flex-row xxs:pl-[1rem]  ">
         <h1 className="font-600 text-[40px] leading-[160%] text-Black border-b-[.2rem] font-sora border-Gold">wh</h1>
         <h1 className="font-600 text-[40px] leading-[160%] font-sora text-Black">at we offer</h1>
     </div>
-    <h3 className=' font-400 text-[24px] text-Black leading-[200%] max-xs:text-[18px] font-sora max-xs-m-[0] max-xxs:pr-[7rem] max-xxs:pl-[1rem] '>We Make Almost Every Genre Of Application, You Name it And We Build it</h3>
+    <h3 className=' font-400 text-[24px] text-Black leading-[200%] max-xs:text-[18px] font-sora max-xs-m-[0] xxs:pr-[7rem] xxs:pl-[1rem] '>We Make Almost Every Genre Of Application, You Name it And We Build it</h3>
 
     <div> 
     <div className="flex flex-row xl:gap-[12rem] sm:gap-[3rem] max-xs:gap-[3rem]   lg:grid xl:grid-cols-3 lg:grid-cols-2 md:grid md:grid-cols-2 max-sm:flex-col  ">
@@ -64,7 +64,7 @@ const Doings = () => {
         </div>
 
 
-        <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] max-xxs:mt-[3rem] bg-word hover-effect-box shadow-lg flex flex-col gap-[3rem]  pt-7 pl-9 ">
+        <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] xxs:mt-[3rem] bg-word hover-effect-box shadow-lg flex flex-col gap-[3rem]  pt-7 pl-9 ">
         <h3  className=" text-Black text-[24px] leading-[120%] font-semibold mt-[1rem] font-sora ">App development</h3>
         <div className=" flex flex-row gap-5 ">
          <img src={Andriod} alt="Andriod" className="w-[27px] h-[27px]" />
@@ -102,7 +102,7 @@ const Doings = () => {
 
         </div>
 
-      <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] max-xxs:mt-[3rem] bg-word hover-effect-box shadow-lg  flex flex-col gap-[3rem]  pt-7 pl-9  xl:mt-0 lg:mt-5 ">
+      <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] xxs:mt-[3rem] bg-word hover-effect-box shadow-lg  flex flex-col gap-[3rem]  pt-7 pl-9  xl:mt-0 lg:mt-5 ">
         <h3  className=" text-Black text-[24px] leading-[120%] font-semibold mt-[1rem] font-sora ">E-Commerce<br/>development</h3>
         <div className=" flex flex-row gap-5 ">
          <img src={Magneto} alt="Magneto" className="w-[27px] h-[27px]" />
