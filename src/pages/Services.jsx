@@ -20,7 +20,7 @@ const Services = () => {
  
   
 
-      <div  className="  md:flex  flex-col  pl-5 pr-5    max-xs:pl-[0rem]   overflow-hidden "  style={{ height:"fit-content"}}>
+      <div  className="  md:flex  flex-col     max-xs:pl-[0rem]   overflow-hidden "  style={{ height:"fit-content"}}>
       <div className=" flex flex-col bg-cover h-[768px] bg-hero  bg-no-repeat max-xs:w-[425px]  " style={{
       backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/unsplash_SYTO3xs06fU.png')`,
     }}>
@@ -31,7 +31,7 @@ const Services = () => {
       <div className="bg-word mt-[5rem] flex w-full md:max-w-[1100px] mx-auto pl-[1rem] pr-[1rem] max-xs:pl-[0] ">
               <div className="flex flex-col  max-xs:p-0">
               <Scroll/>
-                      <section className=" flex flex-col gap-5 xs:pl-[1rem] xxs:pl-[0rem] ">
+                      <section className=" flex flex-col gap-5  xs:pl-[1rem] xxs:pl-[0rem] ">
                             <WhatWeOffer/>
                             <Provide/>
                             <Doings/>

@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div
-      className='  md:flex  flex-col  pl-5 pr-5 max-xs:pl-[0rem] overflow-hidden '
+      className='  md:flex  flex-col   max-xs:pl-[0rem] relative overflow-hidden '
       style={{ height: "fit-content" }}
     >
       <div
@@ -33,7 +33,7 @@ const Home = () => {
       <div className='bg-word mt-[5rem] flex w-full md:max-w-[1100px] mx-auto pl-[1rem] pr-[1rem] max-xs:pl-[0]  '>
         <div className='flex flex-col '>
           <Scroll />
-          <section className=' flex flex-col   xs:pl-[1rem] max:xxs:pl-[0rem] '>
+          <section className=' flex flex-col  xs:pl-[1rem] xxs:pl-[0rem] '>
             <Goals />
             <Provide />
             <Doings />
