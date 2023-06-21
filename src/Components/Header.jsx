@@ -49,7 +49,7 @@ const Header = () => {
     <div className="flex justify-start pl-8 "> 
     <Link to="/"> <img src={Logo} alt="Logo" className=" w-10 h-10  mt-2"/></Link>
     </div>
-    <div className=" max-ms:flex md:hidden  relative xxs:pr-[6rem]">
+    <div className=" max-ms:flex md:hidden h-[50px] relative xxs:pr-[6rem]">
       <button
         className="p-2 rounded-md bg-gray-200 text-gray-800 mt-3 "
         onClick={toggleMobileMenu}
