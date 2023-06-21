@@ -31,7 +31,7 @@ const Services = () => {
       <div className="bg-word mt-[5rem] flex w-full md:max-w-[1100px] mx-auto pl-[1rem] pr-[1rem] max-xs:pl-[0] ">
               <div className="flex flex-col  max-xs:p-0">
               <Scroll/>
-                      <section className=" flex flex-col gap-5 xs:pl-[1rem] max-xxs:pl-[0rem] ">
+                      <section className=" flex flex-col gap-5 xs:pl-[1rem] xxs:pl-[0rem] ">
                             <WhatWeOffer/>
                             <Provide/>
                             <Doings/>
