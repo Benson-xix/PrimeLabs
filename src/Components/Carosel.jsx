@@ -115,7 +115,7 @@ const Carosel = () => {
     <div className="flex flex-col w-full relative sm:pl-8 mt-4">
       <div className="flex items-center space-x-4 mb-4">
         <button
-          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute left-[-2%] focus:outline-none${
+          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute left-[-2%] xxs:left-[3%] focus:outline-none${
             currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handlePrev}
@@ -124,7 +124,7 @@ const Carosel = () => {
           <img src={Prev} alt="prev" className="w-10 h-10 sm:w-12 sm:h-12" />
         </button>
 
-        <div className="flex space-x-4 ">
+        <div className="flex space-x-4 xxs:pl-[1rem] ">
         {boxes
             .slice(currentIndex, currentIndex + getVisibleBoxes())
             .map((box, index) => (
@@ -160,7 +160,7 @@ const Carosel = () => {
         </div>
 
         <button
-          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute md:left-[87%] sm:left-[79%] xxs:left-[55%] focus:outline-none
+          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute md:left-[87%] sm:left-[79%] xxs:left-[60%] focus:outline-none
           ${
             currentIndex >= boxes.length - getVisibleBoxes()
               ? 'opacity-50 cursor-not-allowed'
