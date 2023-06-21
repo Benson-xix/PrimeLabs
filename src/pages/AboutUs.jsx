@@ -15,7 +15,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-       <div  className="  md:flex  flex-col   max-xs:pl-[0rem] overflow-hidden "  style={{ height:"fit-content"}}>
+       <div  className="  md:flex  flex-col   max-xs:pl-[0rem] overflow-hidden relative "  style={{ height:"fit-content"}}>
 
     <div className=" flex-col bg-cover h-[768px]  bg-no-repeat max-xs:w-[425px]  " style={{
     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/unsplash_SYTO3xs06fU.png')`,
