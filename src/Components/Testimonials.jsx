@@ -1,5 +1,6 @@
-// import Carousel from "./Carosel"
-// import Paste from "./Paste"
+
+
+import Carosel from "./Carosel"
 
 const Testimonials = () => {
   return (
@@ -11,7 +12,7 @@ const Testimonials = () => {
           </div>
         <p className="text-Black text-[16px] font-400 font-sora leading-[32px] max-xs:pr-[1rem] xxs:pl-[.5rem] xxs:w-[90%]">what our clients say about us <br className="xxs:hidden"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,</p>
       </div>
-      {/* <Paste/> */}
+      <Carosel/>
     </div>
   )
 }
