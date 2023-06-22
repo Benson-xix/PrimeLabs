@@ -148,7 +148,7 @@ const Carosel = () => {
                   {box.description}
                 </p>
 
-                <div className="flex flex-row gap-2 pl-[1rem] xxs:mt-[-1.7rem] ">
+                <div className="flex flex-row gap-2 pl-[1rem] max-xs:mt-[-1.7rem]">
                   <img src={Star} alt="Star" className="w-6 h-6" />
                   <p className="text-black font-semibold text-sm sm:text-base leading-tight">
                     {box.rating}
