@@ -6,7 +6,6 @@ const LoadingOverlay = () => {
           <div className="glowing-box"></div>
           <div className="glowing-box"></div>
           <div className="glowing-box"></div>
-          <div className="loading-text  font-sora ">Loading...</div>
         </div>
       </div>
     );
