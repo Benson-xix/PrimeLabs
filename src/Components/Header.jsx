@@ -63,7 +63,7 @@ const Header = () => {
       {isMobileMenuOpen && (
 
         <div className="">
-            <div className="bg-ash flex flex-col gap-7 p-3 fixed sm:w-[400px]  xxs:w-[300px] h-[520px]  mt-2 xxs:right-[10%] max-ms:top-[5rem] right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"200"}}>
+            <div className="bg-ash flex flex-col gap-7 p-3 fixed sm:w-[400px]  xxs:w-[300px] h-[520px]  mt-2 xxs:right-[20%] max-ms:top-[5rem] right-[20%]  rounded-[5px] animate-slide-in-left   " style={{zIndex:"200"}}>
     <ul className="mt-2 list-none flex font-sora flex-col text-word gap-[3rem] p-2 ">
           <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(0)}>
             <Link to="/" className={`${selectedItem === 0 ? "font-bold border-b-2 border-Gold" : ""}`}>
