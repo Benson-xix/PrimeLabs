@@ -89,11 +89,15 @@ const Carosel = () => {
   };
 
   const getVisibleBoxes = () => {
-    if (window.innerWidth >= 1024) {
+
+
+    if (window.innerWidth >= 1440) {
+      return 4;
+    } else if (window.innerWidth >= 1024) {
       return 3;
     } else if (window.innerWidth >= 768) {
       return 2;
-    } else {
+    }  else  {
       return 1;
     }
   };
@@ -148,7 +152,7 @@ const Carosel = () => {
                   {box.description}
                 </p>
 
-                <div className="flex flex-row gap-2 pl-[1rem] max-xs:mt-[-1.7rem]">
+                <div className="flex flex-row gap-2 pl-[1rem]  max-xs:mt-[-1.7rem] ">
                   <img src={Star} alt="Star" className="w-6 h-6" />
                   <p className="text-black font-semibold text-sm sm:text-base leading-tight">
                     {box.rating}
@@ -160,7 +164,7 @@ const Carosel = () => {
         </div>
 
         <button
-          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute md:left-[87%] sm:left-[79%] xxs:left-[60%] focus:outline-none
+          className={`text-gray-500 hover:text-gray-700 hover-effect-box absolute lg:left-[93%] md:left-[87%] sm:left-[79%] max-xs:left-[60%] focus:outline-none
           ${
             currentIndex >= boxes.length - getVisibleBoxes()
               ? 'opacity-50 cursor-not-allowed'
