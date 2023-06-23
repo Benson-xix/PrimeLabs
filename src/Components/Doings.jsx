@@ -64,7 +64,7 @@ const Doings = () => {
         </div>
 
 
-        <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] xxs:mt-[3rem] bg-word hover-effect-box shadow-lg flex flex-col gap-[3rem]  pt-7 pl-9 ">
+        <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] max-xs:mt-[3rem] bg-word hover-effect-box shadow-lg flex flex-col gap-[3rem]  pt-7 pl-9 ">
         <h3  className=" text-Black text-[24px] leading-[120%] font-semibold mt-[1rem] font-sora ">App development</h3>
         <div className=" flex flex-row gap-5 ">
          <img src={Andriod} alt="Andriod" className="w-[27px] h-[27px]" />
@@ -102,7 +102,7 @@ const Doings = () => {
 
         </div>
 
-      <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] xxs:mt-[3rem] bg-word hover-effect-box shadow-lg  flex flex-col gap-[3rem]  pt-7 pl-9  xl:mt-0 lg:mt-5 ">
+      <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%] h-[650px] max-xs:mt-[3rem] bg-word hover-effect-box shadow-lg  flex flex-col gap-[3rem]  pt-7 pl-9  xl:mt-0 lg:mt-5 ">
         <h3  className=" text-Black text-[24px] leading-[120%] font-semibold mt-[1rem] font-sora ">E-Commerce<br/>development</h3>
         <div className=" flex flex-row gap-5 ">
          <img src={Magneto} alt="Magneto" className="w-[27px] h-[27px]" />
