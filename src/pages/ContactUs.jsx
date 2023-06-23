@@ -200,7 +200,7 @@ const ContactUs = () => {
                     <img src={insta} alt="insta" className="bg-word w-[17px] h-[17px] " />
                     <img src={twitter} alt="twitter" className="bg-word w-[17px] h-[17px]" />
                     <img src={facebook} alt="facebook" className="bg-word w-[17px] h-[17px]" />
-                    <img src={discord} alt="discord" className="bg-word w-[17px] h-[17px]" />
+                    <img src={discord} alt="discord" className="bg-word w-[23px] h-[23px]" />
                 </div>
             </div>
         </div>
