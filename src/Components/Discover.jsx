@@ -3,8 +3,8 @@ import Line from "../assets/Image/Group.png"
 
 const Discover = () => {
   return (
-    <div className="mt-[6rem] flex flex-col text-word gap-8 relative ">
-      <div className="flex justify-center xxs:pr-[1rem] ">
+    <div className=" flex flex-col text-word gap-8 relative ">
+      <div className="flex justify-center xxs:pr-[1rem] mt-[8rem] ">
       <div className="bg-gray-700 hover:bg-gray-800 text-word w-[216px] h-[67px]  pt-5 cursor-pointer rounded-tl-xl animate-slide-in-left hover-effect-box  rounded-tr-none rounded-bl-none rounded-br-xl ">
       <Link to="/about"><h2 className="text-center text-[16px] leading-[200%] font-sora  font-600 ">Discover & Contact Us</h2></Link>  
       </div>

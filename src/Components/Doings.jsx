@@ -23,7 +23,7 @@ const Doings = () => {
     <h3 className=' font-400 text-[24px] text-Black leading-[200%] max-xs:text-[18px] font-sora max-xs-m-[0] xxs:pr-[7rem] xxs:pl-[1rem] '>We Make Almost Every Genre Of Application, You Name it And We Build it</h3>
 
     <div> 
-    <div className="flex flex-row xl:gap-[12rem] sm:gap-[3rem] max-xs:gap-[3rem]   lg:grid xl:grid-cols-3 lg:grid-cols-2 md:grid md:grid-cols-2 max-sm:flex-col  ">
+    <div className="flex flex-row xl:gap-[12rem] md:gap-[.1rem] sm:gap-[2rem] max-xs:gap-[3rem]   lg:grid xl:grid-cols-3 lg:grid-cols-2 md:grid md:grid-cols-3 max-sm:flex-col  ">
 
       <div className="xl:w-[170%] md:w-[90%] sm:w-[50%] max-xs:w-[90%]   h-[650px] hover-effect-box bg-word shadow-lg flex flex-col gap-[3rem]  pt-7 pl-9  ">
         <h3  className=" text-Black text-[24px] leading-[120%] font-semibold mt-[1rem] font-sora ">Web development</h3>
