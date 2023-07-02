@@ -19,7 +19,7 @@ const WhoAreWe = () => {
   return (
     <div>
       <div
-        className='flex flex-row md:pl-[2rem]  gap-[0rem] w-[100%] h-[400px]  hover-effect-box  sm:w-[100%] max-xs:w-[100%] max-xs:w-[350px] md:p-0 bg-word rounded-[10px] pl-[2rem] sm:pl-[1rem] max-xs:ml-[3rem] relative  animate-slide-in-left'
+        className='flex flex-row md:pl-[2rem]  gap-[0rem] w-[100%] h-[400px]  hover-effect-box  sm:w-[100%] max-xs:w-[100%] max-xs:w-[350px] md:p-0 bg-word rounded-[10px] pl-[2rem] sm:pl-[1rem] max-xs:ml-[2rem] relative  animate-slide-in-left'
         style={{ boxShadow: "0px 4px 200px rgba(0, 0, 0, 0.1)" }}
       >
         <div className=' flex flex-col  lg-gap-[.1rem]  md:gap-[.5rem] md:pl-3   w-[50%] max-xs:w-[90%] '>
