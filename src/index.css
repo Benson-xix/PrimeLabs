@@ -116,5 +116,30 @@ footer {
 }
 } */
 
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease; /* Add CSS transition */
+}
+
+.carousel-container.translate-x {
+  transform: translateX(-100%); /* Slide the carousel to the left */
+}
+
+.expanded-title {
+  transform: translateY(-900%);
+  transition-property: transform;
+}
+
+.expanded-box p {
+  transform: translateY(-100%);
+  transition-property: transform;
+ 
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
 
 
