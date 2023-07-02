@@ -1,6 +1,21 @@
+import { useState } from "react";
 import Smile2 from "../assets/Image/Group 19 (1).png";
 
 const WhoAreWe = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  const handleModalMouseLeave = () => {
+    setIsOpen(false);
+  };
   return (
     <div>
       <div
@@ -18,16 +33,42 @@ const WhoAreWe = () => {
           </div>
 
           <h5 className=' text-Black text-[16px] font-sora leading-[32px] mt-[1rem] font-400 '>
-            About PrimeLabs
+          Welcome to PrimeLabs
           </h5>
 
-          <p className=' text-Black text-[16px] font-sora leading-[32px] mt-[1rem] font-400 max-md:mt-[.5rem] max-sm:text-[12px] '>
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industries standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived{" "}
-            <span className='text-red'>read more...</span>
+          <p className=' text-Black text-[16px] font-sora leading-[32px] mt-[1rem] font-400 max-md:mt-[.5rem] max-sm:text-[12px] ' >
+          PrimeLabs is a trusted provider of expert web and app development solutions.
+          With a passion for helping businesses thrive in the digital landscape, 
+          we offer a comprehensive range of services to meet your unique needs.{" "}
+            <span onClick={openModal} className='text-red cursor-pointer '>read more...</span>
           </p>
+
+          {isOpen && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 sm:pr-[1rem]  max-xs:pl-[1rem]"
+          onMouseLeave={handleModalMouseLeave}>
+          <div className="relative bg-white max-sm:bg-ash rounded-lg p-8 w-[100%] border md:border-gray-900 sm:border-Gold  md:h-[100%] sm:h-[160%] max-xs:h-[270%] sm:mt-[12rem] xs:mt-[10rem] max-xs:mt-[40rem]  ">
+            <span onClick={closeModal} className="absolute top-1 right-4 text-gray-500 hover:text-gray-700 cursor-pointer">
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </span>
+            <div className="grid mt-2 grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="border border-gray-300 max-sm:border-white p-4 rounded-lg hover-effect-box ">
+          <h2 className="text-xl font-bold mb-4 max-sm:text-box font-sora "><span className="border-b-[.2rem] border-Gold">Our</span> History</h2>
+          <p className="max-sm:text-box  font-sora ">Since our establishment, PrimeLabs has been at the forefront of delivering top-notch web and app development solutions. With a strong track record of success and a growing client base, we have solidified our position as a leader in the industry.</p>
+        </div>
+        <div className="border border-gray-300 max-sm:border-white p-4 rounded-lg hover-effect-box ">
+          <h2 className="text-xl font-bold mb-4 max-sm:text-box font-sora "><span className="border-b-[.2rem] border-Gold">Our</span> Core Values</h2>
+          <p className="max-sm:text-box font-sora ">At PrimeLabs, we are guided by our core values of expertise, problem-solving, innovation, and customer success. These values form the foundation of our company culture and drive us to deliver exceptional results for our clients.</p>
+        </div>
+        <div className="border border-gray-300 max-sm:border-white p-4 rounded-lg hover-effect-box ">
+          <h2 className="text-xl font-bold mb-4 max-sm:text-box font-sora "><span className="border-b-[.2rem] border-Gold">Services</span> and <span className="border-b-[.2rem] border-Gold">Expertise</span></h2>
+          <p className="max-sm:text-box font-sora ">We specialize in web and app development, utilizing the latest technologies and frameworks to create dynamic and user-friendly digital experiences. Our team of skilled professionals is proficient in HTML, CSS, JavaScript, React, Python, PHP (Laravel), and WordPress, ensuring that we can meet a wide range of development needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      )}
         </div>
         <div className=' w-[512px] h-[363px] flex justify-center mt-[2rem] max-xs:hidden max-xs:w-[0px] max-xs:h-[0px]'>
           <img

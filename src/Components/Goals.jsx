@@ -3,7 +3,7 @@ import Gathering from "../assets/Image/Group 12.png"
 
 const Goals = () => {
   return (
-    <div className="flex md:flex-row max-sm:flex-col gap-[5rem]"> 
+    <div className="flex md:flex-row max-sm:flex-col gap-[4rem]"> 
     <div className=" flex flex-col gap-[4rem]  animate-slide-in-right  xxs:pl-[.1rem] ">
     <div className=" flex flex-col gap-5   md:w-[100%] max-xs:w-[100%] ">
     <div className="flex flex-row gap-2 xxs:pl-[1rem] ">
@@ -14,10 +14,8 @@ const Goals = () => {
         <h5 className=" text-Black text-[16px] font-400 leading-[200%] font-sora xxs:pl-[1rem]  ">About primelabs</h5>
 
         <p className=" text-Black text-[16px] font-400 leading-[32px] font-sora lg:pr-[0rem] md:pr-[0rem] xs:pr-[2rem] xxs:pr-[3rem] xxs:pl-[1rem] ">
-        simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-        been the industrys standard dummy text ever since the 1500s, when an
-        unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived
+        We strive to become the go-to provider of expert web and app development solutions, recognized for our unwavering commitment to customer success, exceptional experiences, and innovative technologies.
+         We envision a future where businesses can unlock their full digital potential with our trusted partnership and cutting-edge solutions.
         </p>
     </div>
     <div className="  h-[100%]  md:flex  hover-effect-box  ">
@@ -39,10 +37,9 @@ const Goals = () => {
         <h5 className=" text-Black text-[16px] font-sora font-400 leading-[200%] xxs:pl-[1rem] ">About primelabs</h5>
 
         <p className=" text-Black text-[16px]  font-sora font-400 leading-[32px] lg:pr-[0rem] md:pr-[3rem] max-xs:pr-[3rem]  max:xxs:pl-[1rem] ">
-        simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-        been the industrys standard dummy text ever since the 1500s, when an
-        unknown printer took a galley of type and scrambled it to make a type 
-        specimen book. It has survived
+        We are dedicated to providing exceptional web and app development solutions that empower businesses to thrive in the digital landscape.
+         Through our expertise, collaborative approach, and customer-centric focus, we aim to deliver innovative and tailored solutions that drive growth,
+          engagement, and success for our clients.
         </p>
     </div> 
 

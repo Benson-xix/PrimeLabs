@@ -12,13 +12,13 @@ const Discover = () => {
       
       <div className="flex  flex-col gap-8 animate-slide-in-right max-xs:p-3">
         <div className="flex  justify-center ">
-            <h1 className="text-[32px] font-600  leading-[200%] font-sora  xxs:pr-[3rem] xxs:pl-[1rem] ">Invest Today, Secure Your Tomorrow</h1>
+            <h1 className="text-[32px] font-600  leading-[200%] font-sora  xxs:pr-[3rem] xxs:pl-[1rem] ">Welcome to PrimeLabs</h1>
         </div>
       
       <div  className="flex  justify-center ">
         <p className=" text-[20px] font-400 leading-[200%] font-sora sm:pl-[1rem] xxs:pr-[3rem] xxs:pl-[1rem]  " >
-        We attribute our long-term success to our commitment of always putting clients interests first <br />
-        <span className="md:ml-[15rem]  max-xs:ml-[0]  "> Join our Platform today to get started</span>
+        Empowering Business Success Through Expert Software Analysis, Custom Solutions, and Problem-Solving <br />
+        <span className="md:pl-[20rem]  max-xs:ml-[0]  "> Join our Platform today to get started</span>
         </p>
       </div>
         

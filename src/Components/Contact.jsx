@@ -86,7 +86,7 @@ const Contact = () => {
         <input
         type="email"
         name="user_email"
-        className={`border-3 w-[346px] h-[70px] rounded-[20px] bg-start text-word  text-word font-sora py-1 px-7 leading-tight focus:outline-none ${
+        className={`border-3 w-[346px] h-[70px] rounded-[20px] bg-ind text-start font-sora py-1 px-7 leading-tight focus:outline-none ${
           email.length > 0 && !isEmailValid(email) ? 'border-start' : ''
         }`}
         placeholder="Enter Email"
@@ -101,7 +101,7 @@ const Contact = () => {
         <input
             type="text"
             name="message"
-            className="w-[346px] rounded-[20px] h-[177px] font-sora bg-start text-word text-word pl-7 pb-[8rem] focus:outline-none"
+            className="w-[346px] rounded-[20px] h-[177px] font-sora bg-ind text-start pl-7 pb-[8rem] focus:outline-none"
             placeholder="Enter Message"
             value={message}
             onChange={handleMessageChange}
