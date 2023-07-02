@@ -95,7 +95,7 @@ const Provide = () => {
             {expandedBox === index && (
               <div
                 className="text-white text-center transition-transform duration-500 ease-in-out"
-                style={{ transform: expandedBox === index ? 'translateY(-70%)' : 'none' }}
+                style={{ transform: expandedBox === index ? 'translateY(-100%)' : 'none' }}
               >
                 <p className='text-[12px] font-sora font-semi-bold text-Gold max-xs:pr-[1rem] '>{box.text}</p>
               </div>
