@@ -36,7 +36,7 @@ const Goals = () => {
 
         <h5 className=" text-Black text-[16px] font-sora font-400 leading-[200%] xxs:pl-[1rem] ">About primelabs</h5>
 
-        <p className=" text-Black text-[16px]  font-sora font-400 leading-[32px] lg:pr-[0rem] md:pr-[3rem] max-xs:pr-[3rem]  max:xxs:pl-[1rem] ">
+        <p className=" text-Black text-[16px]  font-sora font-400 leading-[32px] lg:pr-[0rem] md:pr-[3rem] xs:pr-[2rem] xxs:pr-[3rem] xxs:pl-[1rem]  ">
         We are dedicated to providing exceptional web and app development solutions that empower businesses to thrive in the digital landscape.
          Through our expertise, collaborative approach, and customer-centric focus, we aim to deliver innovative and tailored solutions that drive growth,
           engagement, and success for our clients.
