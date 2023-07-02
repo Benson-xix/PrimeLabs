@@ -16,6 +16,7 @@ export default {
           red:"#A31616",
           box:"#FBFBFB",
           ash:"#5C5C5C",
+          ind:"#f3f1ea"
       },
       screens: {
         xxs:"375px",
