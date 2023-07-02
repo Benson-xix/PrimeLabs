@@ -66,7 +66,7 @@ const Doings = () => {
         
       
         <div className="flex  ">
-            <button className="bg-start hover:bg-start-dark rounded-[10px] lg:w-[227px] md:w-[200px] max-sm:w-[200px] font-sora  h-[40px] flex justify-center text-word leading-[20px] font-semibold text-[16px] pt-2   "><Link to="/contact">Contact Us</Link></button>
+            <button className="bg-start hover:bg-start-dark rounded-[10px] lg:w-[227px] md:w-[200px] sm:w-[200px] max-sm:w-[200px] max-xs:w-[200px] font-sora  h-[40px] flex justify-center text-word leading-[20px] font-semibold text-[16px] pt-2   "><Link to="/contact">Contact Us</Link></button>
         </div>
 
         </div>
