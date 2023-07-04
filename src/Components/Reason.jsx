@@ -16,7 +16,7 @@ const Reason = () => {
             <h4 className="text-Black text-[30px] max-sm:text-[24px] font-700 leading-[200%] border-b-[5px] border-Gold mr-1 font-sora ">Why</h4>
             <h4 className="text-Black text-[30px] max-sm:text-[24px] font-700 leading-[200%] font-sora ">You Should Trust Us</h4>
             </div>
-            <p className="text-Black text-[16px] max-sm:text-[14px] font-400 font-sora leading-[32px] max-xs:pr-[1rem] xxs:w-[90%] ">
+            <p className="text-Black text-[16px] max-sm:text-[14px] font-400 font-sora leading-[32px] max-xs:pl-[.5rem] max-xs:pr-[1rem] xxs:w-[90%] ">
             Our team of highly skilled professionals specializes in web and app development, providing tailored expertise to meet your unique business needs. 
             With a track record of success, we prioritize your satisfaction, maintaining transparent communication and exceptional customer service throughout the process.
              By staying up-to-date with the latest trends and technologies, we incorporate cutting-edge solutions to give your business a competitive edge.
