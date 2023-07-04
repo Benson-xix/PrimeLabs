@@ -24,7 +24,7 @@ const Goals = () => {
     </div> 
 
     <div className=" flex flex-col gap-[3rem] animate-slide-in-left  mt-4 xxs:pl-[.1rem]  ">
-    <div className="  h-[100%]  md:flex sm:flex  hover-effect-box  xs:hidden max-xs:hidden ">
+    <div className="  h-[100%]  md:flex  hover-effect-box  max-xs:hidden  ">
         <img src={Gathering} alt="Hands" className=" w-[450px] h-[377px] max-sm:w-[377px] max-sm:h-[277px]  " />
     </div>
 
