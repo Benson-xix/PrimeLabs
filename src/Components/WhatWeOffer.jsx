@@ -19,7 +19,7 @@ const WhatWeOffer = () => {
           style={{ boxShadow: "0px 4px 200px rgba(0, 0, 0, 0.1)" }}
         >
           <div className=' flex flex-col pl-[2rem]  w-[50%] sm:w-[50%]  max-xs:w-[90%]'>
-            <h4 className=' text-Black text-[32px] leading-[160%] font-600 mt-[2rem] xxs:mt-[.5rem] font-sora max-sm:text-[30px]  '>
+            <h4 className=' text-Black text-[32px] leading-[160%] font-600 mt-[2rem] xxs:mt-[.5rem] font-sora sm:text-[20px] max-sm:text-[30px]  '>
               software services provided by
               <br />
               PrimeLabs
