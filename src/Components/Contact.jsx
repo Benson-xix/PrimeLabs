@@ -46,6 +46,7 @@ const Contact = () => {
      if (!isEmailValid(email)) {
     window.alert('Invalid email. Please enter a valid email address.');
     return;
+     }
 
     const templateParams = {
       from_email: email,
@@ -91,7 +92,7 @@ const Contact = () => {
         type="email"
         name="user_email"
         className={`border-3 w-[346px] h-[70px] rounded-[20px] bg-ind text-start font-sora py-1 px-7 leading-tight focus:outline-none ${
-          email.length > 0 && !isEmailValid(email) ? 'border-start' : ''
+          email.length > 0 && !isEmailValid(email) ? ' border border-start' : ''
         }`}
         placeholder="Enter Email"
         value={email}
