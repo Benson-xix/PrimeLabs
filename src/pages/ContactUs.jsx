@@ -61,40 +61,39 @@ const ContactUs = () => {
  
  
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+   const handleSubmit = (event) => {
+  event.preventDefault();
 
-     if (!isEmailValid(email)) {
+  if (!isEmailValid(email)) {
     window.alert('Invalid email. Please enter a valid email address.');
     return;
-     }
-    
-    const templateParams = {
-      from_email: email,
-      message: message,
-      to_email: RECIPIENT_EMAIL, 
-    };
+  }
 
-    emailjs
-      .send(EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, templateParams, EMAIL_USER_ID)
-      .then((response) => {
-        console.log('Email sent successfully!', response.text);
-        window.alert('Message sent successfully!');
-      })
-      .catch((error) => {
-        console.error('Email sending failed:', error);
-        window.alert('Failed to send message. Please try again.');
-      });
-
-    setEmail('');
-    setMessage('');
-
+  const templateParams = {
+    from_email: email,
+    message: message,
+    to_email: RECIPIENT_EMAIL, 
   };
 
-  function isEmailValid(email) {
-    const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
-    return emailPattern.test(email);
-  }
+  emailjs
+    .send(EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, templateParams, EMAIL_USER_ID)
+    .then((response) => {
+      console.log('Email sent successfully!', response.text);
+      window.alert('Message sent successfully!');
+    })
+    .catch((error) => {
+      console.error('Email sending failed:', error);
+      window.alert('Failed to send message. Please try again.');
+    });
+
+  setEmail('');
+  setMessage('');
+};
+
+const isEmailValid = (email) => {
+  const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+  return emailPattern.test(email);
+}
 
 
   return (
