@@ -67,7 +67,8 @@ const ContactUs = () => {
      if (!isEmailValid(email)) {
     window.alert('Invalid email. Please enter a valid email address.');
     return;
-
+     }
+    
     const templateParams = {
       from_email: email,
       message: message,
