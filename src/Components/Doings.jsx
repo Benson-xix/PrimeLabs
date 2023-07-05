@@ -5,6 +5,9 @@ import Andriod from "../assets/Image/image 14.png"
 import IOS from "../assets/Image/image 9.png"
 import Flutter from "../assets/Image/image 10.png"
 import Native from "../assets/Image/image 11.png"
+import Html5 from "../assets/Image/html5.png"
+import Css3 from "../assets/Image/css-3.png"
+import Python from "../assets/Image/python.png"
 // import Katlin from "../assets/Image/image 12.png"
 // import Ionic from "../assets/Image/image 13.png"
 import Magneto from "../assets/Image/image 15.png"
@@ -54,12 +57,12 @@ const Doings = () => {
         </div>
 
         <div className=" flex flex-row gap-5">
-         <img src={Word} alt="Word" className="w-[27px] h-[27px]" />
+       <img src={Css3} alt="Css3" className="w-[27px] h-[27px]" />
          <p className=" text-Black text-[20px] leading-[120%] font-400 font-sora ">Css</p>
         </div>
 
         <div className=" flex flex-row gap-5">
-         <img src={Js} alt="Js" className="w-[27px] h-[27px]" />
+           <img src={Python} alt="Python" className="w-[27px] h-[27px]" />
          <p className=" text-Black text-[20px] leading-[120%] font-400 font-sora ">Python</p>
         </div>
         </div>
