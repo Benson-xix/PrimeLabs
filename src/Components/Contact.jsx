@@ -164,7 +164,7 @@ const isEmailValid = (email) => {
                 </div> */}
                 </div>
 
-                <div className="flex md:justify-end flex-row ml-8 gap-4">
+                <div className="flex md:justify-center flex-row ml-8 gap-4">
                     <img src={insta} alt="insta" className="bg-word w-[17px] h-[17px] " />
                     <img src={twitter} alt="twitter" className="bg-word w-[17px] h-[17px]" />
                     <img src={facebook} alt="facebook" className="bg-word w-[17px] h-[17px]" />
