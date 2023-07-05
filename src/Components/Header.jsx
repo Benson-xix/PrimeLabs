@@ -80,11 +80,11 @@ const Header = () => {
               Services
             </Link>
           </li>
-          <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(3)}>
+{/*           <li className="cursor-pointer font-sora hover-effect-box" onClick={() => handleItemClick(3)}>
             <Link to="/contact" className={`${selectedItem === 3 ? "font-bold border-b-2 border-Gold" : ""}`}>
               FAQs
             </Link>
-          </li>
+          </li> */}
         </ul>
         <GetStarted />
         </div>
@@ -120,14 +120,14 @@ const Header = () => {
         >
           <Link to="/services">Services</Link>
         </li>
-        <li
+{/*         <li
           className={`cursor-pointer font-sora hover-effect-box ${
             selectedItem === 3 ? "border-b-2 border-Gold" : ""
           }`}
           onClick={() => handleItemClick(3)}
         >
           <Link to="/contact">FAQs</Link>
-        </li>
+        </li> */}
       </ul>
       <GetStarted />
     </div>
