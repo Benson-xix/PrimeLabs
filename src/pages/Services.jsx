@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Header from "../Components/Header";
-import Discover from "../Components/Discover";
+import ServicesWords from "../Components/ServicesWords";
 import WhatWeOffer from "../Components/WhatWeOffer"
 import Scroll from "../Components/Scroll";
 import Doings from "../Components/Doings";
@@ -34,7 +34,7 @@ const Services = () => {
       backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/unsplash_SYTO3xs06fU.png')`,
     }}>
       <Header/>
-      <Discover/>
+       <ServicesWords/>
       </div>
 
       <div className="bg-word mt-[5rem] flex w-full md:max-w-[1100px] mx-auto pl-[1rem] pr-[1rem] max-xs:pl-[0] ">
