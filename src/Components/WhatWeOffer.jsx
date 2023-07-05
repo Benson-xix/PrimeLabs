@@ -26,10 +26,7 @@ const WhatWeOffer = () => {
             </h4>
 
             <p className=' text-Black text-[16px] max-sm:text-[12px] font-sora  leading-[32px] md:mt-[3rem] sm:mt-1rem max-sm:mt-6 font-400 '>
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industries standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book. It has survive
+             Web Development: HTML, CSS, JavaScript, React, Python, PHP. Mobile App Development: Custom iOS, Android apps. E-commerce, UI/UX Design, Maintenance, Consulting, tailored solutions.
             </p>
           </div>
           <div className=' w-[512px] h-[363px] flex justify-center mt-[2rem]'>
