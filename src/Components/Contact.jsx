@@ -89,7 +89,7 @@ const isEmailValid = (email) => {
         type="email"
         name="user_email"
         className={`border-3 w-[346px] h-[70px] rounded-[20px] bg-ind text-start font-sora py-1 px-7 leading-tight focus:outline-none ${
-          email.length > 0 && !isEmailValid(email) ? ' border border-start' : ''
+          email.length > 0 && !isEmailValid(email) ? ' border-2 border-start' : ''
         }`}
         placeholder="Enter Email"
         value={email}
