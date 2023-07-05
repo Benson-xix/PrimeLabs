@@ -125,7 +125,7 @@ const isEmailValid = (email) => {
         type="email"
         name="user_email"
         className={`border-3 lg:w-[546px] lg:h-[90px] max-md:w-[346px] max-md:h-[70px] rounded-[20px] bg-start text-word  text-word font-sora py-1 px-7 leading-tight focus:outline-none ${
-          email.length > 0 && !isEmailValid(email) ? 'border border-red ' : ''
+          email.length > 0 && !isEmailValid(email) ? 'border-2 border-ash ' : ''
         }`}
         placeholder="Enter Email"
         value={email}
