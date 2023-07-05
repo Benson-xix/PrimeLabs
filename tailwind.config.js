@@ -30,7 +30,7 @@ export default {
         'max-xxs':{max:'375px'},
         'max-xs': {max:'425px'},
         'max-sm': {max:'768px'},
-        'max-ms': {max:'1000px'},
+        'max-ms': {max:'1023px'},
         'max-md': {max:'1024px'},
         'max-lg': {max:'1440px'},
         'max-xl': {max:'2560px'},
