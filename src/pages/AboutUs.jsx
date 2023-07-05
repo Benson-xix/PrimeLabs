@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Header from "../Components/Header";
-import Discover from "../Components/Discover";
+import AboutUsWords from "../Components/AboutUsWords";
 // import WhatWeOffer from "../Components/WhatWeOffer"
 import WhoAreWe from "../Components/WhoAreWe"
 import Goals from "../Components/Goals";
@@ -36,7 +36,7 @@ const AboutUs = () => {
     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/young-employees-sitting-office-table-using-laptop-team-work-brainstorming-meeting-concept.jpg')`,
   }}>
     <Header/>
-    <Discover/>
+   <AboutUsWords/>
     </div>
 
             <div className="bg-word mt-[5rem] flex w-full md:max-w-[1100px] mx-auto pl-[1rem] pr-[1rem] max-xs:pl-[0] ">
