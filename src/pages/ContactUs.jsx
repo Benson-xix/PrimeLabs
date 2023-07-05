@@ -167,7 +167,7 @@ const isEmailValid = (email) => {
 
             <div className=" flex flex-col gap-6 w-[100%] justify-center xl:pl-[60rem] lg:pl-[38rem] md:pl-[13rem] mt-5  ">
                 <h5 className="text-[20px] text-Black font-bold leading-[120%]  max-sm:justify-center font-sora flex ">Contact Information</h5>
-                <p className="font-300 leading-[120%] text-[18px] flex md:justify-center text-ash font-sora ">
+                <p className="font-300 leading-[120%] text-[18px] md:w-[352px] md:h-[108px] flex md:justify-center text-ash font-sora ">
                 Feel free to contact us for any inquiries or assistance.
                 <br className=""/>Our dedicated team is here to help you with prompt and reliable support.
                 <br/>Reach out to us today!  
