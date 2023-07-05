@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Header from "../Components/Header";
-import Discover from "../Components/Discover";
+import ContactUsWords from "../Components/ContactUsWords";
 import Scroll from "../Components/Scroll";
 
 import { useState } from "react";
@@ -104,7 +104,7 @@ const isEmailValid = (email) => {
     backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/unsplash_SYTO3xs06fU.png')`,
   }}>
     <Header/>
-    <Discover/>
+    <ContactUsWords/>
     </div>
 
     <div className="bg-word mt-[5rem] flex w-full md:max-w-[1100px]  pl-[1rem] pr-[1rem] max-xs:pl-[0rem]    ">
