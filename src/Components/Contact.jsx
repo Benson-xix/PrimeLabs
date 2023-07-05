@@ -134,7 +134,8 @@ const isEmailValid = (email) => {
                 </p>
 
                 <div className="flex md:justify-start flex-col gap-5 ">
-                <div className="flex flex-row md:justify-start gap-2">
+                  <div className="flex md:flex-row sm:flex-col max-sm:flex-col gap-[1rem] ">
+                   <div className="flex flex-row md:justify-start gap-2">
                     <img src={Phone} alt="phone" className=" w-[20px] h-[20px]" />
                     <div className="flex flex-col  gap-2">
                     <h5 className=" text-18px leading-1205 font-400 font-sora text-ash">Call Us</h5>
@@ -149,6 +150,8 @@ const isEmailValid = (email) => {
                     <p className="text-14px leading-[22px] font-400 text-ash font-sora ">primelabs.dev@gmail.com</p>
                     </div>
                 </div>
+                  </div>
+               
 
 
                 {/* <div className="flex md:justify-end flex-row gap-2">
