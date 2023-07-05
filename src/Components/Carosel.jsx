@@ -163,8 +163,8 @@ const Carosel = () => {
             .map((box, index) => (
             <div
               key={index}
-              className={`flex-shrink-0 h-[300px] w-64  bg-gray-200 flex flex-col gap-4  rounded-lg shadow-md ${
-                index === currentIndex ? 'border-2 border-blue-500' : ''
+              className={`flex-shrink-0 h-[300px] w-64  bg-gray-200 flex flex-col gap-4 hover-effect-box rounded-lg shadow-md ${
+                index === currentIndex ? 'border-2 border-start ' : ''
               }`}
             >
               
