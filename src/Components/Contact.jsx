@@ -133,7 +133,7 @@ const isEmailValid = (email) => {
                 <br/>Reach out to us today!  
                 </p>
 
-                <div className="flex md:justify-start flex-col gap-5 ">
+                <div className="flex md:justify-start md:flex-row flex-col gap-5 ">
                   <div className="flex md:flex-row sm:flex-col max-sm:flex-col md:justify-center gap-[1rem] ">
                    <div className="flex flex-row  gap-2">
                     <img src={Phone} alt="phone" className=" w-[20px] h-[20px]" />
