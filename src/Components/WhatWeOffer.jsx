@@ -47,10 +47,9 @@ const WhatWeOffer = () => {
               PrimeLabs Solves
             </h4>
 
-            <p className=' text-Black text-[16px] leading-[32px] font-sora font-400 max-sm:text-[12px] xxs:pr-[1rem] '>
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industries standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type
+            <p className=' text-Black text-[16px] leading-[32px] font-sora font-400 max-sm:text-[13px] max-xs:leading-[25px] xxs:pr-[1rem] '>
+             Our software development firm specializes in solving complex business challenges by delivering innovative and customized solutions using cutting-edge technologies and industry expertise.
+We help businesses achieve their digital goals and drive growth through our software development services.
             </p>
 
             <ul className='list-none text-Black text-[16px] max-sm:text-[12px] text-uppercase leading-[30px] flex flex-col gap-5 font-600 mt-3 md:mt-[.5rem] max-xs:mt-3 '>
