@@ -48,7 +48,7 @@ const Doings = () => {
 
         <div className=" flex flex-row gap-5">
          <img src={Js} alt="Js" className="w-[27px] h-[27px]" />
-         <p className=" text-Black text-[20px] leading-[120%] font-400 font-sora ">Javascript</p>
+         <p className=" text-Black text-[20px] leading-[120%] font-400 font-sora ">Javascript(MERN)</p>
         </div>
 
         <div className=" flex flex-row gap-5">
