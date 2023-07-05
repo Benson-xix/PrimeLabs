@@ -52,7 +52,7 @@ const Doings = () => {
         </div>
 
         <div className=" flex flex-row gap-5">
-         <img src={PHP} alt="PHP" className="w-[27px] h-[27px]" />
+        <img src={Html5} alt="Html5" className="w-[27px] h-[27px]" />
          <p className=" text-Black text-[20px] leading-[120%] font-400 font-sora ">HTML5</p>
         </div>
 
